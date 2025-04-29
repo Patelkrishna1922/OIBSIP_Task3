@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-icon">🌡️</div>
+                <h1>TempConvert</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Tools</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" >
+            <div class="hero-content">
+                <h2>Simple, Accurate Temperature Conversions</h2>
+                <p>Easily convert between Celsius, Fahrenheit, and Kelvin with our intuitive temperature converter. Perfect for scientific calculations, cooking, weather checks, and international travel.</p>
+                <p>Just enter a value in any field and see instant conversions in real-time!</p>
+            </div>
+            <div class="hero-image">
+                <img src="temperature.jpeg" alt="Temperature image">
+            </div>
+        </section>
+
+        <section class="converter-section">
+            <div class="converter-background"></div>
+            <div class="converter-content">
+                <div class="converter-heading">
+                    <h2>Temperature Converter</h2>
+                    <p>Enter a value in any field to convert between temperature units</p>
+                </div>
+                
+                <div class="converter-grid">
+                    <div class="temperature-card celsius-card">
+                        <div class="temp-header">
+                            <div class="temp-icon">°C</div>
+                            <h3>Celsius</h3>
+                        </div>
+                        <input type="number" id="celsius" class="temp-input" placeholder="Enter temperature in Celsius">
+                        <div class="temp-formula">
+                            Water freezes at 0°C and boils at 100°C
+                        </div>
+                    </div>
+                    
+                    <div class="temperature-card fahrenheit-card">
+                        <div class="temp-header">
+                            <div class="temp-icon">°F</div>
+                            <h3>Fahrenheit</h3>
+                        </div>
+                        <input type="number" id="fahrenheit" class="temp-input" placeholder="Enter temperature in Fahrenheit">
+                        <div class="temp-formula">
+                            Water freezes at 32°F and boils at 212°F
+                        </div>
+                    </div>
+                    
+                    <div class="temperature-card kelvin-card">
+                        <div class="temp-header">
+                            <div class="temp-icon">K</div>
+                            <h3>Kelvin</h3>
+                        </div>
+                        <input type="number" id="kelvin" class="temp-input" placeholder="Enter temperature in Kelvin">
+                        <div class="temp-formula">
+                            Water freezes at 273.15K and boils at 373.15K
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <div class="info-card">
+                <h3><span class="info-icon">📚</span> Temperature Facts</h3>
+                <p>The Celsius scale was proposed in 1742 by Swedish astronomer Anders Celsius. The Fahrenheit scale was developed by Daniel Gabriel Fahrenheit in 1724, while Lord Kelvin proposed the absolute temperature scale in 1848.</p>
+            </div>
+            
+            <div class="info-card">
+                <h3><span class="info-icon">🧪</span> Scientific Applications</h3>
+                <p>Scientists primarily use Celsius and Kelvin in their measurements. Kelvin is the SI unit of temperature and is used in thermodynamics as it starts from absolute zero, the theoretical point where particles have no thermal energy.</p>
+            </div>
+            
+            <div class="info-card">
+                <h3><span class="info-icon">🌍</span> Global Usage</h3>
+                <p>Most countries worldwide use the Celsius scale for everyday temperature measurements. The United States is one of the few countries that primarily uses Fahrenheit for weather reports and daily life.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">FAQ</a>
+                <a href="#">Support</a>
+            </div>
+            
+            <div class="social-links">
+                <a href="#" class="social-icon">f</a>
+                <a href="#" class="social-icon">tw</a>
+                <a href="#" class="social-icon">in</a>
+                <a href="#" class="social-icon">ig</a>
+            </div>
+            
+            <div class="attribution">
+                <p>© 2025 Temperature Converter. All rights reserved.</p>
+                
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
